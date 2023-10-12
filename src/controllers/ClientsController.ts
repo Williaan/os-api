@@ -29,7 +29,7 @@ export class ClientsController {
                     district,
                     city,
                     model,
-                    plate,
+                    plate: plate.toUpperCase(),
                     parts,
                     service,
                 }
